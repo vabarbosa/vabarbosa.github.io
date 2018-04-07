@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: va
+  name: i-am-va
+  memory: 16M
+  stack: cflinuxfs2
